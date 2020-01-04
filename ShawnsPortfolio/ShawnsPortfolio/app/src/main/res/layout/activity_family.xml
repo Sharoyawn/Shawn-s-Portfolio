@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".family">
+    //heading for showing the title of the activity
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"/>
+    //set image for myself
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/myself_icon"
+        android:background="@drawable/family"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"/>
+    //setting some other text for details information
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Father's Name:Md.Dulal Hossain"
+        android:layout_marginTop="56dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Occupation:Businessman"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mother's Name:Mrs.Mahfuja Akter"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Occupation:Housewife"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hometown:Munshiganj"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Present Address:Shibumarket,Narayanganj"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+</LinearLayout>

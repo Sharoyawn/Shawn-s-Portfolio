@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".Portfolio_homepage">
+    //first nested linear layout for crating a horizontal alignment for the first two image button
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        //button:Myself
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/myself_icon"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/student"
+            android:scaleType="fitXY"
+            android:backgroundTint="#ffff"
+
+            />
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/education_icon"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/desktop"
+            android:scaleType="fitXY"
+            android:backgroundTint="#ffff"
+
+            />
+
+    </LinearLayout>
+    //linear layout for text
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Myself"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:text="Education"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+    //Second nested linear layout
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+        //button:Myself
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/skills_icon"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/skills"
+            android:scaleType="fitXY"
+            android:backgroundTint="#ffff"
+
+            />
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/projects_icon"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/architect"
+            android:scaleType="fitXY"
+            android:backgroundTint="#ffff"
+
+            />
+
+    </LinearLayout>
+    //linear layout for text
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Skills"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="92dp"
+            android:text="Projects"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+    //Third nested linear layout
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+        //button:Myself
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/family_icon"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/family"
+            android:scaleType="fitXY"
+            android:backgroundTint="#ffff"
+
+            />
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/contacts_icon"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/smartphone"
+            android:scaleType="fitXY"
+            android:backgroundTint="#ffff"
+
+            />
+
+    </LinearLayout>
+    //linear layout for text
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Family"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="88dp"
+            android:text="Contacts"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

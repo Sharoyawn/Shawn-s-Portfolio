@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".skills">
+    //heading for showing the title of the activity
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"/>
+    //set image for myself
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/myself_icon"
+        android:background="@drawable/skills"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"/>
+    //setting some other text for details information
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Development:Android Studio"
+        android:layout_marginTop="56dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Graphics Design:Adobe Illustrator"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UI/UX Design:Adobe XD"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Editing:Adobe Premiere Pro"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Audio Mixing:Adobe Audition"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVA Programming:Netbeans,IntelliJ"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MS Office:MS Word,MS PowerPoint,MS Excel"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+</LinearLayout>

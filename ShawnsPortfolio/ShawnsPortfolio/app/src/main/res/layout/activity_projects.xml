@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".projects">
+    //heading for showing the title of the activity
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projects"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"/>
+    //set image for myself
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/myself_icon"
+        android:background="@drawable/architect"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"/>
+    //adding buttons for my projects
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/calculator"
+        android:text="Simple Calculator"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#ffff"
+        android:layout_gravity="center_horizontal"
+        android:background="#282e45"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/Registration_Form"
+        android:text="Registration Form"
+        android:textColor="#ffff"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center_horizontal"
+        android:background="#282e45"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/log_button"
+        android:text="Login Page"
+        android:textColor="#ffff"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center_horizontal"
+        android:background="#282e45"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

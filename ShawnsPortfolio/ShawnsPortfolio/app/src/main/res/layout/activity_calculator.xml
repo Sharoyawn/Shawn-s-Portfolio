@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"
+        android:text="Calculator"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        />
+    //all the edit text item is for the input of the numbers
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_input"
+        android:hint="Enter the first number"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_input"
+        android:hint="Enter the second number"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        />
+    //this new linear layout for making a horizontal line of operational buttons
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        //all the image button is for the calculation
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add"
+            android:src="@drawable/plus"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subtraction"
+            android:src="@drawable/minus"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/multiplication"
+            android:src="@drawable/multiply"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/divider"
+            android:src="@drawable/division"
+            />
+    </LinearLayout>
+    //this part is for showing the result of the calculation
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:textSize="16sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginLeft="16sp"
+        android:textColor="#35BF4D"
+        />
+
+
+</LinearLayout>

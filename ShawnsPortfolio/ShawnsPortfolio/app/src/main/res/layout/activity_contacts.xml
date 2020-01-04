@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".contacts">
+    //heading for showing the title of the activity
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"/>
+    //set image for myself
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/myself_icon"
+        android:background="@drawable/smartphone"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"/>
+    //setting some other text for details information
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail:shmahbub007@gmail.com"
+        android:layout_marginTop="56dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:+8801843441957"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Postal Address:Fatulla"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+    //using for showing the social media contacts information
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="56dp">
+
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/facebook"
+            android:backgroundTint="#ffff"/>
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/youtube"
+            android:backgroundTint="#ffff"/>
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/linkedin"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#ffff"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
